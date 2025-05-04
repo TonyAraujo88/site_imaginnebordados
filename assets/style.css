@@ -1,0 +1,36 @@
+body {
+    border: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.top-menu {
+    background: rgba(231, 30, 64, 0.623);
+    width: 100%;
+    height: 45px;    
+    color: white;
+    display: flex;
+    padding: 2px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+}
+
+.inner {
+    max-width: 1160;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.top-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1080px;
+    height: 45px;
+    font-size: 21px;
+}
