@@ -108,7 +108,7 @@ body {
     display: flex;
     width: 240px;
     height: 26px;
-    background: greenyellow;
+    background: rgb(243, 124, 164);
 }
 
 .category-list {
