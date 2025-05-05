@@ -13,12 +13,13 @@ body {
     height: 45px;
 }
 
-.top-info {
+.top-info {    
     display: flex;    
     height: 45px;
     width: 65%;
     align-items: center;
-    justify-content: space-between;margin-left: 50px;       
+    justify-content: space-between;
+    margin-left: 50px;       
 }
 
 .atendimento {
@@ -70,4 +71,39 @@ body {
 .logo {
     width: 250px;
     height: 230px;
+}
+
+.principal {
+     background: rgb(243, 124, 164);   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.principal-2 {
+    display: flex;
+    flex-direction: row;   
+    height: 100%;
+    width: 65%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.meio {
+    display: flex;     
+}
+
+.left {
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;   
+   padding: 5px 10px;
+   width: 240px;
+   height: 26px;
+   align-items: center;
+   justify-content: center;
+   background: rgb(124, 243, 134);
 }
