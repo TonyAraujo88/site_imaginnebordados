@@ -74,36 +74,45 @@ body {
 }
 
 .principal {
-     background: rgb(243, 124, 164);   
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 1000px;
 }
 
 .principal-2 {
+    background: white;
     display: flex;
-    flex-direction: row;   
-    height: 100%;
     width: 65%;
+    height: 1000px;    
     align-items: center;
-    justify-content: flex-start;
-    margin-left: 50px;
-}
-
-.meio {
-    display: flex;     
 }
 
 .left {
-   color: black;
-   font-family: Arial, Helvetica, sans-serif;   
-   padding: 5px 10px;
-   width: 240px;
-   height: 26px;
-   align-items: center;
-   justify-content: center;
-   background: rgb(124, 243, 134);
+  width: 240px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 21px;
+}
+
+.right {
+    width: 924px;
+    height: 1000px;
+}
+
+.lista-kits {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 240px;
+    height: 26px;
+    background: greenyellow;
+}
+
+.category-list {
+    margin: 0;
+    width: 100%;
+    padding: 0;
 }
