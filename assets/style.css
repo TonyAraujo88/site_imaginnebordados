@@ -106,7 +106,14 @@ body {
 .item {
  margin: 0px 0px 0px 32px; text-decoration: none;
  color: inherit;
+ cursor: pointer;
 }
+
+.item--1::before {
+    content: "";
+}
+
+
 
 .item:hover {
     color: #E899B8;
@@ -119,4 +126,30 @@ body {
     width: 225px;
     padding: 8px 12px;
     border-color: #E899B8;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nav span > ul > li > a.has-childs .hidden-childs,
+.nav span > ul > li > span.has-childs .hidden-childs {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  position: fixed;
+  background-color: #ffffff;
+  background-color: var(--header-background-color);
+  color: #222222;
+  color: var(--header-link-color);
+  top: 120px;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1140px;
 }
