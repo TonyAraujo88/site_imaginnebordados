@@ -30,27 +30,93 @@ body {
     width: 1370px;
     display: flex;
     flex-direction: row;
+    padding: 5px;
+}
+
+.flex--itens--2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 8px;
+    flex: 1;    
+}
+
+.logo--home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    flex: 1;
 }
 
 .logo {
-    height: 55px;
-    width: 55px;
+    display: flex;
+    height: 65px;
+    width: 65px;    
 }
 
-.botao--1 {
+.botao--1 {    
     height: 36px;
     width: 40px;
     background: #E899B8;
+    border: none;
     border-radius: 10px;
+    margin: 0px 0px 0px 8px;
+    padding: 0px 12px;
+}
+
+.img--search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
 }
 
 .botao--2 {
     height: 36px;
     width: 40px;
-    background: #f8E8f0;
+    background: #ffffff;
+    border-color: #E899B8;
     border-radius: 10px;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 8px;   
+}
+
+.img--shop--car {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
 }
 
 .nav {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
+    font-size: 16px;
+    font-family: inter;
+    color: #375141;
+}
+
+.item {
+ margin: 0px 0px 0px 32px; text-decoration: none;
+ color: inherit;
+}
+
+.item:hover {
+    color: #E899B8;
+    transition: 0.3s;
+}
+
+.buscar {
+    border-radius: 10px;
+    height: 30px;
+    width: 225px;
+    padding: 8px 12px;
+    border-color: #E899B8;
 }
