@@ -26,11 +26,11 @@ body {
 
 .flex--itens {
     background: #ffffff;
-    height: 70px;
+    height: 68px;
     width: 1370px;
     display: flex;
     flex-direction: row;
-    padding: 5px;
+    padding: 4px 0px;
 }
 
 .flex--itens--2 {
@@ -51,8 +51,8 @@ body {
 
 .logo {
     display: flex;
-    height: 65px;
-    width: 65px;    
+    height: 60px;
+    width: 60px;    
 }
 
 .botao--1 {    
@@ -128,28 +128,33 @@ body {
     border-color: #E899B8;
 }
 
-.section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section--1 {  
+    background: #f8E8f0;
+    flex-direction: row;
+    height: 500px;
+    padding: 128px 0px;
 }
 
+.section--2 {
+    display: flex;    
+    background: #ffffff;
+    flex-direction: row;
+    height: 1388px;
+    padding: 64px 0px;
+}
 
+.section--3 {
+    display: flex;    
+    background: #f8E8f0;
+    flex-direction: row;
+    height: 675px;
+    padding: 64px 0px;
+}
+.footer {    
+    display: flex;    
+    background: #111827;
+    flex-direction: row;
+    height: 389px;
+    padding: 64px 0px;
 
-.nav span > ul > li > a.has-childs .hidden-childs,
-.nav span > ul > li > span.has-childs .hidden-childs {
-  opacity: 0;
-  visibility: hidden;
-  display: none;
-  position: fixed;
-  background-color: #ffffff;
-  background-color: var(--header-background-color);
-  color: #222222;
-  color: var(--header-link-color);
-  top: 120px;
-  left: 0;
-  right: 0;
-  margin-right: auto;
-  margin-left: auto;
-  width: 1140px;
 }
