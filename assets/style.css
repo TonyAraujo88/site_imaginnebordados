@@ -15,13 +15,15 @@ body {
 
 .hidden {
     background: #f8E8f0;
-    height: 36px;
-    width: 1370px;
+    color:#4b5563;
+    height: 28px;
+    width: 1368px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px 0px;
     font-size: 14px;
+    font-family: Inter;
 }
 
 .flex--itens {
@@ -99,7 +101,7 @@ body {
     align-items: center;
     flex: 4;
     font-size: 16px;
-    font-family: inter;
+    font-family: Inter;
     color: #375141;
 }
 
@@ -135,11 +137,52 @@ body {
     padding: 128px 0px;
 }
 
+.principal {
+    display: flex;
+    height: 500px;
+    margin: 0px 127px;
+    padding: 0px 16px;
+}
+.grid {
+    display: flex;
+    height: 500px;
+    width: 1368px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.space {
+    display: flex;   
+    justify-content: center;
+    width: 660px;
+    height: 296px;
+    margin-right: 48px;
+}
+
+.text--1 {
+    font-size: 60px;
+    font-family: Playfair Display;
+}
+.text--2 {
+    color: #E899B8;
+}
+
+.relative {
+    display: flex;
+    background: #f0c2d1;    
+    justify-content: center;
+    align-items: center;
+    width: 660px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+
 .section--2 {
     display: flex;    
     background: #ffffff;
     flex-direction: row;
-    height: 1388px;
+    height: 1260px;
     padding: 64px 0px;
 }
 
@@ -147,7 +190,7 @@ body {
     display: flex;    
     background: #f8E8f0;
     flex-direction: row;
-    height: 675px;
+    height: 547px;
     padding: 64px 0px;
 }
 .footer {    
@@ -155,6 +198,43 @@ body {
     background: #111827;
     flex-direction: row;
     height: 389px;
-    padding: 64px 0px;
+}
 
+.bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 132px;
+    width: 198.19px;
+    margin: 0;
+    padding: 0;
+}
+.imagem {
+    height: 85px;
+    width: 85px;
+    margin: 0px 0px 16px;
+}
+
+.texto {
+    height: 56px;
+    width: 198.19px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.text--imagem {
+    font-family: inter;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    color: #E899B8 
 }
