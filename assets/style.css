@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0;
     padding: 0;
 }
@@ -54,17 +54,40 @@
 .logo {
     display: flex;
     height: 60px;
-    width: 60px;    
+    width: 60px;
+    cursor: pointer;   
 }
 
 .botao--1 {    
     height: 36px;
     width: 40px;
     background: #E899B8;
+    color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 6px;
     margin: 0px 0px 0px 8px;
     padding: 0px 12px;
+}
+
+.botao--2 {
+    border-width: 1px;
+    height: 36px;
+    width: 40px;
+    background: #ffffff;
+    border-color: #E899B8;
+    border-radius: 6px;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 8px; 
+}
+
+.botao--1:hover {
+    background: #e7a3be;
+    color: #ffffff;
+}
+
+.botao--2:hover {
+    background: #f8E8f0;
+    color: #ffffff;
 }
 
 .img--search {
@@ -74,16 +97,6 @@
     height: 21px;
     width: 21px;
     cursor: pointer;
-}
-
-.botao--2 {
-    height: 36px;
-    width: 40px;
-    background: #ffffff;
-    border-color: #E899B8;
-    border-radius: 10px;
-    margin: 0px 0px 0px 10px;
-    padding: 0px 8px;   
 }
 
 .img--shop--car {
@@ -121,16 +134,19 @@
 }
 
 .buscar {
-    border-radius: 10px;
-    height: 30px;
-    width: 225px;
+    border-width: 1px;
+    border-radius: 8px;
+    height: 20px;
+    width: 228px;
     padding: 8px 12px;
     border-color: #E899B8;
 }
 
-.section--1 {  
-    background: #f8E8f0;
+.section--1 { 
+    display: flex;
+    background: linear-gradient(to right, #f8E8f0,#ffffff);
     flex-direction: row;
+    width: 100%;
     height: 500px;
     padding: 128px 0px;
 }
@@ -138,6 +154,7 @@
 .principal {
     display: flex;
     height: 500px;
+
     margin: 0px 127px;
     padding: 0px 16px;
 }
@@ -247,27 +264,30 @@
 
 .botoes {
     display: flex;
-    margin: 24px 0px 0px;
     height: 44px;
     width: 660px;
-    justify-content: flex-start;
+    justify-content: start;
+    
     font-family: Inter;
 }
 
 .botao--3 {
     height: 44px;
     width: 175px;
-     background: #E899B8;
+    background: #E899B8;
     border: none;
     border-radius: 10px;
     margin: 0px 0px 0px 8px;
-    padding: 0px 12px;
+    padding: 0px 10px;
     font-family: Inter;
     font-size: 18px;
     color: #ffffff;
+    cursor: pointer;
+    margin-left: -1px;    
 }
 
 .botao--4 {
+    border-width: 1px;
     height: 44px;
     width: 175px;
     background: #ffffff;
@@ -277,5 +297,15 @@
     padding: 0px 8px;
     font-family: Inter;
     font-size: 18px;
-    color: #E899B8; 
+    color: #E899B8;
+    cursor: pointer;
+}
+
+.botao--3:hover {
+    background: #e7a3be;    
+}
+
+.botao--4:hover {
+    background: #f8E8f0;
+    color: #000000;
 }
