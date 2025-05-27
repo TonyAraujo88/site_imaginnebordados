@@ -244,3 +244,38 @@
     justify-content: center;
     color: #E899B8 
 }
+
+.botoes {
+    display: flex;
+    margin: 24px 0px 0px;
+    height: 44px;
+    width: 660px;
+    justify-content: flex-start;
+    font-family: Inter;
+}
+
+.botao--3 {
+    height: 44px;
+    width: 175px;
+     background: #E899B8;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 0px 0px 8px;
+    padding: 0px 12px;
+    font-family: Inter;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.botao--4 {
+    height: 44px;
+    width: 175px;
+    background: #ffffff;
+    border-color: #E899B8;
+    border-radius: 10px;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 8px;
+    font-family: Inter;
+    font-size: 18px;
+    color: #E899B8; 
+}
