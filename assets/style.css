@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -115,8 +115,6 @@ body {
     content: "";
 }
 
-
-
 .item:hover {
     color: #E899B8;
     transition: 0.3s;
@@ -149,6 +147,7 @@ body {
     width: 1368px;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .space {
@@ -156,7 +155,7 @@ body {
     justify-content: center;
     width: 660px;
     height: 296px;
-    margin-right: 48px;
+    flex-direction: column;
 }
 
 .text--1 {
@@ -165,6 +164,15 @@ body {
 }
 .text--2 {
     color: #E899B8;
+}
+
+.text--3 {
+    color: #4b5563;
+    margin: 24px 0px 0px;
+    height: 84px;
+    width: 660px;
+    font-size: 20px;
+    font-family: inter;
 }
 
 .relative {
@@ -213,8 +221,6 @@ body {
     flex-direction: column;
     height: 132px;
     width: 198.19px;
-    margin: 0;
-    padding: 0;
 }
 .imagem {
     height: 85px;
@@ -232,7 +238,7 @@ body {
 }
 
 .text--imagem {
-    font-family: inter;
+    font-family: Inter;
     font-size: 18px;
     align-items: center;
     justify-content: center;
