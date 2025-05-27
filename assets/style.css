@@ -154,7 +154,6 @@ body {
 .principal {
     display: flex;
     height: 500px;
-
     margin: 0px 127px;
     padding: 0px 16px;
 }
@@ -308,4 +307,17 @@ body {
 .botao--4:hover {
     background: #f8E8f0;
     color: #000000;
+}
+
+@media screen and (max-width: 1200px){
+    /* classes gerais */
+    .section--1, .grid {
+        flex-direction: column;
+        display: flex;
+    }
+
+    /* header */
+    .nav, .flex--itens--2 {
+        display: none;
+    }
 }
