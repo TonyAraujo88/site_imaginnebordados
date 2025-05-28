@@ -313,11 +313,20 @@ body {
     color: #000000;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 800px){
     /* classes gerais */
-    .section--1, .grid {
+    .grid {
+        height: 750px;
         flex-direction: column;
         display: flex;
+    }
+
+    .section--1, .principal {
+        flex-direction: column;
+        display: flex;
+        height: 1200px;
+        align-items: center;
+        justify-content: center;
     }
 
     /* header */
